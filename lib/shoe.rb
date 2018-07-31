@@ -3,8 +3,8 @@ class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
   
 
-  def initialize(title)
-    @title = title
+  def initialize(cobble)
+    @cobble = cobble
   end
 
 def turn_page
